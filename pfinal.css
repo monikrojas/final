@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+*{
+	margin: 0;
+	box-sizing: border-box; 
+	
+}
+
+body {
+  font-family: 	Inconsolata;
+  color: #C7860E;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7e4f1;
+  
+}
+
+a{
+	
+	text-decoration: none;
+}
+
+/*---navbar--*/
+ 
+.navbar{
+	
+	background: url("assets/iris.jpg") right top;
+	padding: 0.5px 0px;
+	font-family: 	Sans Serif;
+
+}
+
+
+/*--- HEADER ---*/
+
+.masthead {
+	
+	background-color: #f5edf2;
+	font-family: Inconsolata;
+    color: #C7860E;
+	margin: 40px 20px 20px;
+	height: 100%;
+	padding-top: 80px;
+	padding-bottom: 40px;
+
+}
+
+/*--- SECTION ---*/
+
+.container-section{
+
+	background: url("assets/florpastel.jpg") right top;
+	margin: 20px;
+	padding-top: 40px;
+	border: #C7860E 1.5px solid;
+	height: 500px;
+}
+
+
+.row {
+	
+	text-align: center;
+
+}
+.featurette{
+	
+	margin: 15px;
+}
+.row .col-md-6{
+	
+	margin-top: 15px; 
+}
+
+.featurette-heading{
+	
+	margin-top: 60px;
+	
+}
+
+.featurette-heading .h1{
+	
+	margin-top: 15px;
+	
+}
+
+/*-- FOOTER --*/
+
+.containerfooter{
+	
+	background: url("assets/iris.jpg") ;
+	width: 100%;
+	padding: 40px 0px;
+	margin-top: 40px;
+	margin-bottom: -50px;
+	
+}
+
+/*--- REDES ---*/
+
+
+.redes{
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.redes .icon-redes{
+	font-size: 35px;
+	margin: 30px;
+	whidth: 50px;
+	heigth: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #C7860E;
+	background: #fff;
+	box-shadow: 0 3px 5px 0 rgb( 0, 0, -2);
+	transition: -2s;
+}
+.redes .icon-redes a:hover{
+	trasform: translateY(-3px) scale(1.05);
+	box-shadow: 0 5px 5px 0 rgb( 0, 0, 4);
+	filter: none;
+	
+}
+
+
